@@ -12,7 +12,7 @@ int main() {
 	HWND window = FindWindowA(0, "AppForHack");
 
 	if (window == 0) {
-		cout << "Îêíî íå íàéäåíî" << endl;
+		cout << "ÐžÐºÐ½Ð¾ Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½Ð¾" << endl;
 		Sleep(500);
 		return -1;
 	}
@@ -24,19 +24,19 @@ int main() {
 		HANDLE process = OpenProcess(PROCESS_ALL_ACCESS, false, processID);
 
 		if (!process) {
-			cout << "Íå óäàëîñü îòêðûòü ïðîöåññ" << endl;
+			cout << "ÐÐµ ÑƒÐ´Ð°Ð»Ð¾ÑÑŒ Ð¾Ñ‚ÐºÑ€Ñ‹Ñ‚ÑŒ Ð¿Ñ€Ð¾Ñ†ÐµÑÑ" << endl;
 			Sleep(500);
 			return -2;
 		}
 		else {
-			// Ïîèñê àäðåñà ÷åðåç Cheat Engine 
+			// ÐŸÐ¾Ð¸ÑÐº Ð°Ð´Ñ€ÐµÑÐ° Ñ‡ÐµÑ€ÐµÐ· Cheat Engine 
 			int memoryWriteStatus = WriteProcessMemory(process, (LPVOID)0x20467C28278, &valueToWrite, (DWORD)sizeof(valueToWrite), NULL);
 			
 			if (memoryWriteStatus > 0) {
-				cout << "Çàïèñü ïðîøëà óñïåøíî";
+				cout << "Ð—Ð°Ð¿Ð¸ÑÑŒ Ð¿Ñ€Ð¾ÑˆÐ»Ð° ÑƒÑÐ¿ÐµÑˆÐ½Ð¾";
 			}
 			else {
-				cout << "Îøèáêà" << endl;
+				cout << "ÐžÑˆÐ¸Ð±ÐºÐ°" << endl;
 				Sleep(500);
 				return -3;
 			}
