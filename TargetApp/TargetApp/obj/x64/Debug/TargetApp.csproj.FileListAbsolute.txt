@@ -1,0 +1,11 @@
+E:\projects_cpp\TargetApp\TargetApp\bin\x64\Debug\TargetApp.exe.config
+E:\projects_cpp\TargetApp\TargetApp\bin\x64\Debug\TargetApp.exe
+E:\projects_cpp\TargetApp\TargetApp\bin\x64\Debug\TargetApp.pdb
+E:\projects_cpp\TargetApp\TargetApp\obj\x64\Debug\TargetApp.csproj.AssemblyReference.cache
+E:\projects_cpp\TargetApp\TargetApp\obj\x64\Debug\TargetApp.csproj.SuggestedBindingRedirects.cache
+E:\projects_cpp\TargetApp\TargetApp\obj\x64\Debug\TargetApp.Form1.resources
+E:\projects_cpp\TargetApp\TargetApp\obj\x64\Debug\TargetApp.Properties.Resources.resources
+E:\projects_cpp\TargetApp\TargetApp\obj\x64\Debug\TargetApp.csproj.GenerateResource.cache
+E:\projects_cpp\TargetApp\TargetApp\obj\x64\Debug\TargetApp.csproj.CoreCompileInputs.cache
+E:\projects_cpp\TargetApp\TargetApp\obj\x64\Debug\TargetApp.exe
+E:\projects_cpp\TargetApp\TargetApp\obj\x64\Debug\TargetApp.pdb
