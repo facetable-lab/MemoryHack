@@ -9,7 +9,7 @@ int main() {
 	int valueToWrite = 0;
 	cin >> valueToWrite;
 
-	HWND window = FindWindowA(0, "AppForHack");
+	HWND window = FindWindowA(0, "AppForHack"); // Имя окна
 
 	if (window == 0) {
 		cout << "Окно не найдено" << endl;
